@@ -27,6 +27,11 @@ class NEOCardTableViewController: UIViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        scrollViewDidScroll(tableView)
+    }
+    
     @objc
     private func dismissVC() {
         dismiss(animated: true, completion: nil)
