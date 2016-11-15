@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F5AA9651DDB07E300FF8E5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9641DDB07E300FF8E5C /* AppDelegate.swift */; };
+		8F5AA9671DDB07E300FF8E5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9661DDB07E300FF8E5C /* ViewController.swift */; };
+		8F5AA96A1DDB07E300FF8E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AA9681DDB07E300FF8E5C /* Main.storyboard */; };
+		8F5AA96C1DDB07E300FF8E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AA96B1DDB07E300FF8E5C /* Assets.xcassets */; };
+		8F5AA96F1DDB07E300FF8E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AA96D1DDB07E300FF8E5C /* LaunchScreen.storyboard */; };
+		8F5AA97A1DDB07E300FF8E5C /* NEOScaleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9791DDB07E300FF8E5C /* NEOScaleViewTests.swift */; };
+		8F5AA9851DDB07E300FF8E5C /* NEOScaleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9841DDB07E300FF8E5C /* NEOScaleViewUITests.swift */; };
+		8F5AA9941DDB088A00FF8E5C /* StyleTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9931DDB088A00FF8E5C /* StyleTool.swift */; };
+		8F5AA99C1DDB09D900FF8E5C /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA99B1DDB09D900FF8E5C /* UIColor+Category.m */; };
+		8F5AA9A21DDB0AD300FF8E5C /* NEOCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9A11DDB0AD300FF8E5C /* NEOCardTableViewController.swift */; };
+		8F5AA9A51DDB0B0100FF8E5C /* NEOCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9A31DDB0B0100FF8E5C /* NEOCardTableViewCell.swift */; };
+		8F5AA9A61DDB0B0100FF8E5C /* NEOCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AA9A41DDB0B0100FF8E5C /* NEOCardTableViewCell.xib */; };
+		8F5AA9A91DDB0B1200FF8E5C /* NEOCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9A71DDB0B1200FF8E5C /* NEOCardView.swift */; };
+		8F5AA9AA1DDB0B1200FF8E5C /* NEOCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AA9A81DDB0B1200FF8E5C /* NEOCardView.xib */; };
+		8F5AA9AF1DDB0B2200FF8E5C /* NEOCardCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9AB1DDB0B2200FF8E5C /* NEOCardCollectionLayout.swift */; };
+		8F5AA9B01DDB0B2200FF8E5C /* NEOCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9AC1DDB0B2200FF8E5C /* NEOCardCollectionViewCell.swift */; };
+		8F5AA9B11DDB0B2200FF8E5C /* NEOCardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AA9AD1DDB0B2200FF8E5C /* NEOCardCollectionViewCell.xib */; };
+		8F5AA9B21DDB0B2200FF8E5C /* NEOCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9AE1DDB0B2200FF8E5C /* NEOCollectionView.swift */; };
+		8F5AA9B41DDB0B4900FF8E5C /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9B31DDB0B4900FF8E5C /* UIView+AutoLayout.swift */; };
+		8F5AA9B61DDB0B6400FF8E5C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9B51DDB0B6400FF8E5C /* UIView+Extension.swift */; };
+		8F5AA9B81DDB0CD500FF8E5C /* NEOCardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AA9B71DDB0CD500FF8E5C /* NEOCardCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F5AA9761DDB07E300FF8E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5AA9591DDB07E300FF8E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F5AA9601DDB07E300FF8E5C;
+			remoteInfo = NEOScaleView;
+		};
+		8F5AA9811DDB07E300FF8E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5AA9591DDB07E300FF8E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F5AA9601DDB07E300FF8E5C;
+			remoteInfo = NEOScaleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F5AA9611DDB07E300FF8E5C /* NEOScaleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEOScaleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5AA9641DDB07E300FF8E5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F5AA9661DDB07E300FF8E5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F5AA9691DDB07E300FF8E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F5AA96B1DDB07E300FF8E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F5AA96E1DDB07E300FF8E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F5AA9701DDB07E300FF8E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5AA9751DDB07E300FF8E5C /* NEOScaleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEOScaleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5AA9791DDB07E300FF8E5C /* NEOScaleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOScaleViewTests.swift; sourceTree = "<group>"; };
+		8F5AA97B1DDB07E300FF8E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5AA9801DDB07E300FF8E5C /* NEOScaleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEOScaleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5AA9841DDB07E300FF8E5C /* NEOScaleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEOScaleViewUITests.swift; sourceTree = "<group>"; };
+		8F5AA9861DDB07E300FF8E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5AA9931DDB088A00FF8E5C /* StyleTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleTool.swift; sourceTree = "<group>"; };
+		8F5AA9991DDB09D900FF8E5C /* NEOScaleView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NEOScaleView-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F5AA99A1DDB09D900FF8E5C /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		8F5AA99B1DDB09D900FF8E5C /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		8F5AA9A11DDB0AD300FF8E5C /* NEOCardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOCardTableViewController.swift; sourceTree = "<group>"; };
+		8F5AA9A31DDB0B0100FF8E5C /* NEOCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOCardTableViewCell.swift; sourceTree = "<group>"; };
+		8F5AA9A41DDB0B0100FF8E5C /* NEOCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOCardTableViewCell.xib; sourceTree = "<group>"; };
+		8F5AA9A71DDB0B1200FF8E5C /* NEOCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOCardView.swift; sourceTree = "<group>"; };
+		8F5AA9A81DDB0B1200FF8E5C /* NEOCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOCardView.xib; sourceTree = "<group>"; };
+		8F5AA9AB1DDB0B2200FF8E5C /* NEOCardCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOCardCollectionLayout.swift; sourceTree = "<group>"; };
+		8F5AA9AC1DDB0B2200FF8E5C /* NEOCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F5AA9AD1DDB0B2200FF8E5C /* NEOCardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOCardCollectionViewCell.xib; sourceTree = "<group>"; };
+		8F5AA9AE1DDB0B2200FF8E5C /* NEOCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOCollectionView.swift; sourceTree = "<group>"; };
+		8F5AA9B31DDB0B4900FF8E5C /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		8F5AA9B51DDB0B6400FF8E5C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8F5AA9B71DDB0CD500FF8E5C /* NEOCardCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOCardCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F5AA95E1DDB07E300FF8E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5AA9721DDB07E300FF8E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5AA97D1DDB07E300FF8E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F5AA9581DDB07E300FF8E5C = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9631DDB07E300FF8E5C /* NEOScaleView */,
+				8F5AA9781DDB07E300FF8E5C /* NEOScaleViewTests */,
+				8F5AA9831DDB07E300FF8E5C /* NEOScaleViewUITests */,
+				8F5AA9621DDB07E300FF8E5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F5AA9621DDB07E300FF8E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9611DDB07E300FF8E5C /* NEOScaleView.app */,
+				8F5AA9751DDB07E300FF8E5C /* NEOScaleViewTests.xctest */,
+				8F5AA9801DDB07E300FF8E5C /* NEOScaleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F5AA9631DDB07E300FF8E5C /* NEOScaleView */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA99D1DDB0AC400FF8E5C /* Controller */,
+				8F5AA99E1DDB0AC400FF8E5C /* View */,
+				8F5AA9921DDB087300FF8E5C /* Util */,
+				8F5AA9641DDB07E300FF8E5C /* AppDelegate.swift */,
+				8F5AA9661DDB07E300FF8E5C /* ViewController.swift */,
+				8F5AA9681DDB07E300FF8E5C /* Main.storyboard */,
+				8F5AA96B1DDB07E300FF8E5C /* Assets.xcassets */,
+				8F5AA96D1DDB07E300FF8E5C /* LaunchScreen.storyboard */,
+				8F5AA9701DDB07E300FF8E5C /* Info.plist */,
+			);
+			path = NEOScaleView;
+			sourceTree = "<group>";
+		};
+		8F5AA9781DDB07E300FF8E5C /* NEOScaleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9791DDB07E300FF8E5C /* NEOScaleViewTests.swift */,
+				8F5AA97B1DDB07E300FF8E5C /* Info.plist */,
+			);
+			path = NEOScaleViewTests;
+			sourceTree = "<group>";
+		};
+		8F5AA9831DDB07E300FF8E5C /* NEOScaleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9841DDB07E300FF8E5C /* NEOScaleViewUITests.swift */,
+				8F5AA9861DDB07E300FF8E5C /* Info.plist */,
+			);
+			path = NEOScaleViewUITests;
+			sourceTree = "<group>";
+		};
+		8F5AA9921DDB087300FF8E5C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9B51DDB0B6400FF8E5C /* UIView+Extension.swift */,
+				8F5AA9931DDB088A00FF8E5C /* StyleTool.swift */,
+				8F5AA9B31DDB0B4900FF8E5C /* UIView+AutoLayout.swift */,
+				8F5AA9951DDB099F00FF8E5C /* OC */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8F5AA9951DDB099F00FF8E5C /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA99A1DDB09D900FF8E5C /* UIColor+Category.h */,
+				8F5AA99B1DDB09D900FF8E5C /* UIColor+Category.m */,
+				8F5AA9991DDB09D900FF8E5C /* NEOScaleView-Bridging-Header.h */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		8F5AA99D1DDB0AC400FF8E5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9A11DDB0AD300FF8E5C /* NEOCardTableViewController.swift */,
+				8F5AA9B71DDB0CD500FF8E5C /* NEOCardCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F5AA99E1DDB0AC400FF8E5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9A71DDB0B1200FF8E5C /* NEOCardView.swift */,
+				8F5AA9A81DDB0B1200FF8E5C /* NEOCardView.xib */,
+				8F5AA99F1DDB0AC400FF8E5C /* Collection */,
+				8F5AA9A01DDB0AC400FF8E5C /* Table */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F5AA99F1DDB0AC400FF8E5C /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9AB1DDB0B2200FF8E5C /* NEOCardCollectionLayout.swift */,
+				8F5AA9AC1DDB0B2200FF8E5C /* NEOCardCollectionViewCell.swift */,
+				8F5AA9AD1DDB0B2200FF8E5C /* NEOCardCollectionViewCell.xib */,
+				8F5AA9AE1DDB0B2200FF8E5C /* NEOCollectionView.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		8F5AA9A01DDB0AC400FF8E5C /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				8F5AA9A31DDB0B0100FF8E5C /* NEOCardTableViewCell.swift */,
+				8F5AA9A41DDB0B0100FF8E5C /* NEOCardTableViewCell.xib */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F5AA9601DDB07E300FF8E5C /* NEOScaleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F5AA9891DDB07E300FF8E5C /* Build configuration list for PBXNativeTarget "NEOScaleView" */;
+			buildPhases = (
+				8F5AA95D1DDB07E300FF8E5C /* Sources */,
+				8F5AA95E1DDB07E300FF8E5C /* Frameworks */,
+				8F5AA95F1DDB07E300FF8E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEOScaleView;
+			productName = NEOScaleView;
+			productReference = 8F5AA9611DDB07E300FF8E5C /* NEOScaleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F5AA9741DDB07E300FF8E5C /* NEOScaleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F5AA98C1DDB07E300FF8E5C /* Build configuration list for PBXNativeTarget "NEOScaleViewTests" */;
+			buildPhases = (
+				8F5AA9711DDB07E300FF8E5C /* Sources */,
+				8F5AA9721DDB07E300FF8E5C /* Frameworks */,
+				8F5AA9731DDB07E300FF8E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F5AA9771DDB07E300FF8E5C /* PBXTargetDependency */,
+			);
+			name = NEOScaleViewTests;
+			productName = NEOScaleViewTests;
+			productReference = 8F5AA9751DDB07E300FF8E5C /* NEOScaleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F5AA97F1DDB07E300FF8E5C /* NEOScaleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F5AA98F1DDB07E300FF8E5C /* Build configuration list for PBXNativeTarget "NEOScaleViewUITests" */;
+			buildPhases = (
+				8F5AA97C1DDB07E300FF8E5C /* Sources */,
+				8F5AA97D1DDB07E300FF8E5C /* Frameworks */,
+				8F5AA97E1DDB07E300FF8E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F5AA9821DDB07E300FF8E5C /* PBXTargetDependency */,
+			);
+			name = NEOScaleViewUITests;
+			productName = NEOScaleViewUITests;
+			productReference = 8F5AA9801DDB07E300FF8E5C /* NEOScaleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F5AA9591DDB07E300FF8E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = dengrui;
+				TargetAttributes = {
+					8F5AA9601DDB07E300FF8E5C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AJMN4LRZXK;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					8F5AA9741DDB07E300FF8E5C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F5AA9601DDB07E300FF8E5C;
+					};
+					8F5AA97F1DDB07E300FF8E5C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F5AA9601DDB07E300FF8E5C;
+					};
+				};
+			};
+			buildConfigurationList = 8F5AA95C1DDB07E300FF8E5C /* Build configuration list for PBXProject "NEOScaleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F5AA9581DDB07E300FF8E5C;
+			productRefGroup = 8F5AA9621DDB07E300FF8E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F5AA9601DDB07E300FF8E5C /* NEOScaleView */,
+				8F5AA9741DDB07E300FF8E5C /* NEOScaleViewTests */,
+				8F5AA97F1DDB07E300FF8E5C /* NEOScaleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F5AA95F1DDB07E300FF8E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5AA9A61DDB0B0100FF8E5C /* NEOCardTableViewCell.xib in Resources */,
+				8F5AA9AA1DDB0B1200FF8E5C /* NEOCardView.xib in Resources */,
+				8F5AA96F1DDB07E300FF8E5C /* LaunchScreen.storyboard in Resources */,
+				8F5AA96C1DDB07E300FF8E5C /* Assets.xcassets in Resources */,
+				8F5AA96A1DDB07E300FF8E5C /* Main.storyboard in Resources */,
+				8F5AA9B11DDB0B2200FF8E5C /* NEOCardCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5AA9731DDB07E300FF8E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5AA97E1DDB07E300FF8E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F5AA95D1DDB07E300FF8E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5AA9671DDB07E300FF8E5C /* ViewController.swift in Sources */,
+				8F5AA9B21DDB0B2200FF8E5C /* NEOCollectionView.swift in Sources */,
+				8F5AA9A21DDB0AD300FF8E5C /* NEOCardTableViewController.swift in Sources */,
+				8F5AA9651DDB07E300FF8E5C /* AppDelegate.swift in Sources */,
+				8F5AA9941DDB088A00FF8E5C /* StyleTool.swift in Sources */,
+				8F5AA9A51DDB0B0100FF8E5C /* NEOCardTableViewCell.swift in Sources */,
+				8F5AA9B81DDB0CD500FF8E5C /* NEOCardCollectionViewController.swift in Sources */,
+				8F5AA9B61DDB0B6400FF8E5C /* UIView+Extension.swift in Sources */,
+				8F5AA99C1DDB09D900FF8E5C /* UIColor+Category.m in Sources */,
+				8F5AA9AF1DDB0B2200FF8E5C /* NEOCardCollectionLayout.swift in Sources */,
+				8F5AA9B01DDB0B2200FF8E5C /* NEOCardCollectionViewCell.swift in Sources */,
+				8F5AA9B41DDB0B4900FF8E5C /* UIView+AutoLayout.swift in Sources */,
+				8F5AA9A91DDB0B1200FF8E5C /* NEOCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5AA9711DDB07E300FF8E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5AA97A1DDB07E300FF8E5C /* NEOScaleViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5AA97C1DDB07E300FF8E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5AA9851DDB07E300FF8E5C /* NEOScaleViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F5AA9771DDB07E300FF8E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F5AA9601DDB07E300FF8E5C /* NEOScaleView */;
+			targetProxy = 8F5AA9761DDB07E300FF8E5C /* PBXContainerItemProxy */;
+		};
+		8F5AA9821DDB07E300FF8E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F5AA9601DDB07E300FF8E5C /* NEOScaleView */;
+			targetProxy = 8F5AA9811DDB07E300FF8E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F5AA9681DDB07E300FF8E5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F5AA9691DDB07E300FF8E5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F5AA96D1DDB07E300FF8E5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F5AA96E1DDB07E300FF8E5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F5AA9871DDB07E300FF8E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F5AA9881DDB07E300FF8E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F5AA98A1DDB07E300FF8E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = AJMN4LRZXK;
+				INFOPLIST_FILE = NEOScaleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoteched.NEOScaleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NEOScaleView/Util/OC/NEOScaleView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8F5AA98B1DDB07E300FF8E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = AJMN4LRZXK;
+				INFOPLIST_FILE = NEOScaleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoteched.NEOScaleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NEOScaleView/Util/OC/NEOScaleView-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8F5AA98D1DDB07E300FF8E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NEOScaleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoteched.NEOScaleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEOScaleView.app/NEOScaleView";
+			};
+			name = Debug;
+		};
+		8F5AA98E1DDB07E300FF8E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NEOScaleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoteched.NEOScaleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEOScaleView.app/NEOScaleView";
+			};
+			name = Release;
+		};
+		8F5AA9901DDB07E300FF8E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NEOScaleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoteched.NEOScaleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NEOScaleView;
+			};
+			name = Debug;
+		};
+		8F5AA9911DDB07E300FF8E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NEOScaleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoteched.NEOScaleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NEOScaleView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F5AA95C1DDB07E300FF8E5C /* Build configuration list for PBXProject "NEOScaleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5AA9871DDB07E300FF8E5C /* Debug */,
+				8F5AA9881DDB07E300FF8E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F5AA9891DDB07E300FF8E5C /* Build configuration list for PBXNativeTarget "NEOScaleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5AA98A1DDB07E300FF8E5C /* Debug */,
+				8F5AA98B1DDB07E300FF8E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F5AA98C1DDB07E300FF8E5C /* Build configuration list for PBXNativeTarget "NEOScaleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5AA98D1DDB07E300FF8E5C /* Debug */,
+				8F5AA98E1DDB07E300FF8E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F5AA98F1DDB07E300FF8E5C /* Build configuration list for PBXNativeTarget "NEOScaleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F5AA9901DDB07E300FF8E5C /* Debug */,
+				8F5AA9911DDB07E300FF8E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F5AA9591DDB07E300FF8E5C /* Project object */;
+}
