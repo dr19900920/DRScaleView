@@ -15,41 +15,51 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="414"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姚子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCi-Aa-BGZ">
-                    <rect key="frame" x="12.5" y="20" width="35" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="刑法" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCi-Aa-BGZ">
+                    <rect key="frame" x="12.5" y="25" width="35" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61A-At-WUv">
-                    <rect key="frame" x="344.5" y="20" width="18" height="21"/>
+                    <rect key="frame" x="344.5" y="25" width="18" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100点攻击力" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpy-4G-8dS">
-                    <rect key="frame" x="139" y="196.5" width="97.5" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10个记忆点" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpy-4G-8dS">
+                    <rect key="frame" x="144.5" y="197" width="87.5" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45天前对你进行了攻击" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3n-Eq-s6l">
-                    <rect key="frame" x="185.5" y="373" width="177" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45天前完成" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3n-Eq-s6l">
+                    <rect key="frame" x="272.5" y="373" width="90" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bw4-qS-dA1">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="8"/>
+                    <color key="backgroundColor" red="0.47450980539999998" green="0.8392156959" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="8" id="AOY-kx-IWA"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="z3n-Eq-s6l" secondAttribute="trailing" constant="12.5" id="7DY-gJ-I9b"/>
                 <constraint firstItem="FCi-Aa-BGZ" firstAttribute="leading" secondItem="nVN-oT-6N3" secondAttribute="leading" constant="12.5" id="FNF-lf-nk5"/>
                 <constraint firstItem="Kpy-4G-8dS" firstAttribute="centerY" secondItem="nVN-oT-6N3" secondAttribute="centerY" id="Kvr-Hg-0L2"/>
-                <constraint firstItem="FCi-Aa-BGZ" firstAttribute="top" secondItem="nVN-oT-6N3" secondAttribute="top" constant="20" id="NDi-ru-nHv"/>
+                <constraint firstItem="FCi-Aa-BGZ" firstAttribute="top" secondItem="nVN-oT-6N3" secondAttribute="top" constant="25" id="NDi-ru-nHv"/>
                 <constraint firstItem="Kpy-4G-8dS" firstAttribute="centerX" secondItem="nVN-oT-6N3" secondAttribute="centerX" id="PKi-uT-s4S"/>
                 <constraint firstAttribute="bottom" secondItem="z3n-Eq-s6l" secondAttribute="bottom" constant="20" id="Qb7-e4-OGu"/>
+                <constraint firstItem="bw4-qS-dA1" firstAttribute="top" secondItem="nVN-oT-6N3" secondAttribute="top" id="Qua-wv-Giy"/>
                 <constraint firstAttribute="trailing" secondItem="61A-At-WUv" secondAttribute="trailing" constant="12.5" id="SGp-OP-CVd"/>
-                <constraint firstItem="61A-At-WUv" firstAttribute="top" secondItem="nVN-oT-6N3" secondAttribute="top" constant="20" id="hpH-xZ-ZPB"/>
+                <constraint firstItem="bw4-qS-dA1" firstAttribute="leading" secondItem="nVN-oT-6N3" secondAttribute="leading" id="Vg7-su-oar"/>
+                <constraint firstItem="61A-At-WUv" firstAttribute="top" secondItem="nVN-oT-6N3" secondAttribute="top" constant="25" id="hpH-xZ-ZPB"/>
+                <constraint firstAttribute="trailing" secondItem="bw4-qS-dA1" secondAttribute="trailing" id="iBw-ip-97J"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
